@@ -1,43 +1,199 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-</head>
-<body>
-<meta charset="UTF-8">
-<style>
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Ver más</title>
 
-.contenedor {
-    position: relative;
-    width: 400px;
-    height: 200px;
-}
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="robots" content="index, follow" />
 
-.p1 {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
+        <style>
+            :root {
+                --color-base: #202122;
+                --background-color-neutral-subtle: #f8f9fa;
+                --color-progressive: #36c;
+                --line-height-content: 1.625;
+            }
 
-.p2 {
-    position: absolute;
-    top: 40px;   /* Un poco más abajo */
-    left: 60px;  /* Un poco más a la derecha */
-}
+            body {
+                font-family: sans-serif;
+                background-color: var(--background-color-neutral-subtle) x;
+            }
 
-</style>
-</head>
-<body>
+            .content-wrapper {
+                width: 80%;
+                margin: 0 auto;
+            }
 
-<div class="contenedor">
-    <p class="p1">Pablo Reinoso (Buenos Aires, 8 de marzo de 1955) es un artista franco-argentino, que desarrolló gran parte de su obra en Francia desde 1978.[1]​
+            @media (max-width: 500px) {
+                .content-wrapper {
+                    width: 98%;
+                }
+            }
 
-Reconocido por diseñar las rampas para discapacitados del Palacio del Eliseo, entre otras instalaciones, en noviembre de 2025 el presidente Emmanuel Macron le entregó la Legión de Honor en grado de Caballero.[2].</p>
-</div>
+            h1,
+            h2 {
+                font-family:
+                    "Linux Libertine", "Georgia", "Times", "Source Serif 4",
+                    serif;
+                line-height: 1.375;
+                border-bottom: 1px solid var(--border-color-base, #a2a9b1);
+                font-weight: normal;
+            }
 
-    <button onclick="window.location.href='pagina2frances.html'">
-        ver más
-    </button>
+            h2 {
+                font-size: 1.5em;
+            }
 
-</body>
+            h1 {
+                font-size: 1.8em;
+            }
+
+            a {
+                text-decoration: none;
+                color: var(--color-progressive);
+            }
+
+            p {
+                margin: 0.5em 0 1em 0;
+                line-height: var(--line-height-content);
+            }
+
+            .overlay {
+                display: grid;
+                width: 100%;
+            }
+
+            .overlay .layer {
+                grid-area: 1 / 1;
+                width: 100%;
+                margin: 0;
+            }
+
+            .button-link {
+                display: inline-block;
+                border: 0;
+                padding: 4px 8px;
+                font-size: 0.75rem;
+                background: #f0f0f0;
+                color: var(--color-base);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="content-wrapper">
+            <h1>Pablo Reinoso (designer)</h1>
+
+            <div class="overlay">
+                <div class="layer en">
+                    <p>
+                        <b>Pablo Reinoso</b> (born 8 March 1955,
+                        <a href="/wiki/Buenos_Aires" title="Buenos Aires"
+                            >Buenos Aires</a
+                        >, Argentina) is an Argentine–French artist and designer
+                        who has been working in Paris since 1978.
+                    </p>
+                </div>
+            </div>
+
+            <h2>Biography</h2>
+            <div class="overlay">
+                <div class="layer en">
+                    <p>
+                        Pablo Reinoso was introduced to
+                        <a href="/wiki/Carpentry" title="Carpentry"
+                            >carpentry</a
+                        >
+                        by his French grandfather. He made his first chair when
+                        he was six years old. He went on to study architecture
+                        in University of Buenos Aires and began a career in
+                        communications and design.
+                    </p>
+                    <p>
+                        Reinoso has lived and worked in Paris since 1978. He
+                        became known for his public installations and
+                        sculptures, created from traditional materials such as
+                        metal, stone and wood. After 1995 he began to introduce
+                        a wider range of materials, such as cloth in his
+                        installations <i>Respirantes</i>,
+                        <i>Persistantes</i> and <i>Contractantes</i>. In the
+                        late 1990s he broadened his work in a commercial
+                        direction to include the design of products, for example
+                        perfume bottles. In 2003 he designed a new cup for the
+                        French
+                        <a
+                            href="/wiki/Ligue_de_Football_Professionnel"
+                            title="Ligue de Football Professionnel"
+                            >Ligue de Football Professionnel</a
+                        >.
+                    </p>
+                    <p>
+                        In 2012 Reinoso had his first Asian exhibition, at the
+                        <a
+                            href="/wiki/Art_Plural_Gallery"
+                            title="Art Plural Gallery"
+                            >Art Plural Gallery</a
+                        >
+                        in Singapore, showing 15 sculptures. That year he won
+                        the
+                        <a href="/wiki/Konex_Award" title="Konex Award"
+                            >Konex Award</a
+                        >
+                        from Argentina in design. Eleven of his works were shown
+                        in <a href="/wiki/Macau" title="Macau">Macau</a> as part
+                        of
+                        <a href="/wiki/Le_French_May" title="Le French May"
+                            >Le French May</a
+                        >
+                        in 2013.<sup id="cite&#95;ref-7" class="reference"
+                            ><a href="#cite_note-7"
+                                ><span class="cite-bracket">&#91;</span>7<span
+                                    class="cite-bracket"
+                                    >&#93;</span
+                                ></a
+                            ></sup
+                        >
+                        In 2020
+                        <a
+                            href="/wiki/Waddington_Custot"
+                            title="Waddington Custot"
+                            >Waddington Custot</a
+                        >
+                        in London combined a solo digital exhibition with a
+                        presentation in the gallery.
+                    </p>
+                    <p>
+                        In 2022 <i>Débordements</i>, Reinoso's largest solo
+                        exhibition to date, was held at the UNESCO World
+                        Heritage Site
+                        <a
+                            href="/wiki/Ch%C3%A2teau_de_Chambord"
+                            title="Château de Chambord"
+                            >Château de Chambord</a
+                        >, France.
+                    </p>
+                    <p>
+                        The critic Patricia Avena Navarro described Reinoso as a
+                        "sensible artist, his work is informed by a complex
+                        sphere of relations that include the biographic due to
+                        their link with art history and the world of
+                        psychoanalysis, which announce the absolute triumph of
+                        the image."
+                    </p>
+                    <p>
+                        Reinoso lives in
+                        <a
+                            href="/wiki/Malakoff,_Hauts-de-Seine"
+                            title="Malakoff, Hauts-de-Seine"
+                            >Malakoff</a
+                        >, a suburb of Paris.
+                    </p>
+                </div>
+            </div>
+            <a class="button-link" href="super_2.html">Ver más</a>
+        </div>
+    </body>
 </html>
